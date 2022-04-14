@@ -5,18 +5,66 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="src/css/main.css">
+
   <title>My Pibbles</title>
 </head>
 
-<body>
-  <h1>My Pibbles - a pit bull adoption finder</h1>
-  <p>This site is under construction - please check back soon.</p>
+<body class="text-center">
+  <div class="container text-center">
+    <main class="form-signin">
+      <form>
+        <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+        <div class="form-floating">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"
+            style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREFUOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbIdzd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLmtGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwbyBkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4YzvassiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="Password"
+            style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREFUOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbIdzd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLmtGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwbyBkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4YzvassiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
+          <label for="floatingPassword">Password</label>
+        </div>
+
+        <div class="checkbox mb-3">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+        <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+        <p class="mt-5 mb-3 text-muted">© 2017–2021</p>
+      </form>
+    </main>
+  </div>
+
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content=between align-items-center py-3 my-4 border-top">
+      <p class="col-md-4 mb-0 text-muted">&copy; Alice Smith - March 2022 </p>
+      <a href="/"
+        class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+        <!-- <svg class="bi me-2" width="40" height="32">
+          <use xlink:href="#bootstrap"></use>
+        </svg> -->
+      </a>
+
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="https://github.com/alimay17/myPibbles" class="nav-link px-2 text-muted">Source
+            code
+            on Github</a></li>
+      </ul>
+    </footer>
+  </div>
+
 </body>
-<footer>
-  <p>&copy; Alice Smith - March 2022 | <a href="https://github.com/alimay17/myPibbles">Source code on
-      Github</a></p>
-</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+</script>
 <script src="src/scripts/main.js" type="module"></script>
 
 </html>

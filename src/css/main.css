@@ -8,39 +8,13 @@ h1 {
   font-family: 'Mate SC', serif;
 }
 
-h1 {
-  text-align: center;
-}
-
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #F7F3F7;
-  padding: 5px 25px;
-  font-size: 14px;
-  margin: 0;
   color: #0A014F;
-  max-width: 960px;
-  margin: 0 auto;
 }
 
 
 /* FOOTER */
-footer a,
-footer a:visited,
-.inLine,
-.inLine:visited {
-  color: #0A014F;
-}
 
-footer {
-  padding: 25px;
-  display: flex;
-  justify-content: center;
-  font-style: italic;
-}
-
-footer p {
-  text-align: center;
-  padding: 10px;
-}
 /*=====  End of MAIN CSS for Pibbles   ======*/
